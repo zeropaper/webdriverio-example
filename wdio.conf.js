@@ -65,10 +65,6 @@ exports.config = {
     },
     {
       browserName: 'firefox',
-    },
-    {
-      browserName: 'phantomjs',
-      'phantomjs.binary.path': require('phantomjs').path,
     }
   ],
   //

@@ -9,7 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "babel-runtime": "^6.9.0",
-    "phantomjs": "^1.9.8",
     "wdio-mocha-framework": "^0.2.13",
     "wdio-screenshot": "^0.2.0",
     "wdio-selenium-standalone-service": "^0.0.3",
