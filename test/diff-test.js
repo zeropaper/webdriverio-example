@@ -8,7 +8,7 @@ function assertDiff(results) {
 
 suite('simple github test', function() {
   test('file-wrap', async function() {
-    await browser.url('/'); // for base url see wdio.conf.js
+    await browser.url('/zinserjan/wdio-screenshot'); // for base url see wdio.conf.js
     await browser.pause(2000);
 
     const report = await browser.checkElement('.file-wrap', {
@@ -18,7 +18,7 @@ suite('simple github test', function() {
   });
 
   test('visible-area', async function() {
-    await browser.url('/'); // for base url see wdio.conf.js
+    await browser.url('/zinserjan/wdio-screenshot'); // for base url see wdio.conf.js
     await browser.pause(2000);
 
     const report = await browser.checkViewport({
@@ -29,7 +29,7 @@ suite('simple github test', function() {
   });
 
   test('whole-page', async function() {
-    await browser.url('/'); // for base url see wdio.conf.js
+    await browser.url('/zinserjan/wdio-screenshot'); // for base url see wdio.conf.js
     await browser.pause(2000);
 
     const report = await browser.checkDocument({
